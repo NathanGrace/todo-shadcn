@@ -1,6 +1,7 @@
 <script lang="ts">
     import { useQuery } from 'convex-svelte';
     import { api } from '../convex/_generated/api.js';
+    import { Button } from "$lib/components/ui/button/index.js";
 
     const query = useQuery(api.tasks.get, {});
 </script>
@@ -20,3 +21,5 @@
         {/each}
     </ul>
 {/if}
+
+<Button href="/auth">Click me</Button>
