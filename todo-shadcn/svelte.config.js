@@ -11,6 +11,14 @@ const config = {
         alias: {
             "@/*": "./path/to/lib/*",
         },
+        experimental: {
+            remoteFunctions: true
+        }
+    },
+    compilerOptions: {
+        experimental: {
+            async: true
+        }
     }
 };
 
