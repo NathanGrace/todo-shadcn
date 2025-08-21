@@ -5,7 +5,7 @@
 		import { ClerkProvider } from 'svelte-clerk';
 		import { ModeWatcher } from "mode-watcher";
     import { PUBLIC_CONVEX_URL } from '$env/static/public';
-    import { setupConvex } from 'convex-svelte';
+		import {setupConvex, useConvexClient} from 'convex-svelte';
 		import SunIcon from "@lucide/svelte/icons/sun";
 		import MoonIcon from "@lucide/svelte/icons/moon";
 
